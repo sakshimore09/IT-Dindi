@@ -1,0 +1,351 @@
+html, body, div, input, span, a, select, address, option, h1, h2, h3, h4, main, aside, article, section, header, p, footer, nav, pre {
+    box-sizing: border-box;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+html {
+    
+    
+
+opacity: 80%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+}
+
+
+
+  .wrapper label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.wrapper .field {
+  position: relative;
+  border-radius: 8px;
+}
+
+.wrapper input[type="text"],
+.wrapper input[type="tel"],
+.wrapper input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #686c7233;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #333;
+}
+
+.wrapper input[type="text"]:focus,
+.wrapper input[type="tel"]:focus,
+.wrapper input[type="email"]:focus {
+  outline: none;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px #686c7233;
+}
+
+.wrapper i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  color: #333;
+}
+.wrapper .field button {
+  display: block;
+  width: 150px;
+  height: 30px;
+  border: none;
+    margin-top: 0px;
+    margin-left: 8px;
+  font-size: 12px;
+  color: #fff;
+   background-color: #808080;
+    padding-top: 7px;
+    padding-right: 28px;
+    padding-bottom: 14px;
+    padding-left: 28px;
+}
+
+
+.wrapper .gap {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper .gap::before,
+.wrapper .gap::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+  margin: 0 10px;
+}
+
+.wrapper input[type="tel"] {
+    width: 100%;
+    height: 50px;
+    background-color: #686c7233;
+    border-radius: 8px;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    outline: none;
+    border: 1px solid white;
+}
+
+
+
+.g-recaptcha {
+   background-color: #000000;
+    color: #fff;
+  }
+input,address,select {
+    outline: 0;
+}
+h1 {
+    margin: 0;
+    padding: 7px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #000000ef;
+    color: #000000;
+    font-weight: 600;
+    background-color: #ffd60bf5;
+}
+h1 i {
+    padding-right: 10px;
+    font-size: 24px;
+}
+.register-warkari-form {
+    background-color: #000000d3;
+   
+    width: 700px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,.2);
+}
+.register-warkari-form .fields {
+    position: relative;
+    padding: 20px;
+}
+.register-warkari-form select {
+    appearance: none;
+    background-image: linear-gradient(45deg, transparent 50%, #c7c9cb 50%), linear-gradient(135deg, #c7c9cb 50%, transparent 50%), linear-gradient(to right, #dfe0e0, #dfe0e0);
+    background-position: calc(100% - 20px) 20px, calc(100% - 15px) 20px, calc(100% - 40px) 10px;
+    background-size: 5px 5px, 5px 5px, 1px 25px;
+    background-repeat: no-repeat;
+}
+.register-warkari-form select option:first-child {
+    display: none;
+ }
+.register-warkari-form input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #be2828;
+    filter: invert(0.8);
+}
+.register-warkari-form input[type="text"], 
+.register-warkari-form input[type="email"],
+.register-warkari-form input[type="date"],
+.register-warkari-form input[type="textbox"],
+.register-warkari-form select {
+    display: flex;
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid #dfe0e0;
+    width: 100%;
+    flex-basis: 100%;
+    height: 47px;
+}
+.register-warkari-form input[type="text"]:focus, 
+.register-warkari-form input[type="email"]:focus,
+.register-warkari-form input[type="textbox"]:focus,
+.register-warkari-form input[type="date"]:focus,
+.register-warkari-form select:focus {
+    border: 1px solid #686c7233 ;
+}
+.register-warkari-form input[type="text"]::placeholder,
+.register-warkari-form input[type="email"]::placeholder,
+.register-warkari-form input[type="textbox"]::placeholder,
+.register-warkari-form input[type="date"]:invalid,
+.register-warkari-form address::placeholder,
+.register-warkari-form select:invalid {
+  color: #858688;
+  font-size: 12px;
+}
+
+.register-warkari-form address {
+    resize: none;
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #686c7233 ;
+    width: 100%;
+    height: 150px;
+}
+.register-warkari-form address:focus {
+    border: 1px solid #0361ed33 ;
+}
+.register-warkari-form input[type="save"] {
+    display: block;
+    margin-top: 15px;
+    padding: 15px;
+    border: 0;
+    background-color: #cb5f51;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+}
+.register-warkari-form input[type="submit"]:hover {
+    background-color: #ffffff;
+}
+.register-warkari-form input[name="email"] {
+    position: relative;
+    display: block;
+    margin-top: 0px;
+}
+
+.register-warkari-form .field {
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    padding-bottom: 5px;
+}
+.register-warkari-form label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #d7d7d7;
+}
+.register-warkari-form .field i {
+    position: absolute;
+    color: #ffc400;
+    top: 25px;
+    left: 15px;
+    z-index: 10;
+}
+.register-warkari-form .field i ~ input {
+    padding-left: 45px !important;
+}
+.register-warkari-form .responses {
+    padding: 15px;
+    margin: 0;
+}
+.register-warkari-form input[type="text"]{
+    display: flex;
+    padding: 15px;
+    margin-top :0px;
+    border: 1px solid #dfe0e0;
+    width: 100%;
+    flex-basis: 100%;
+    height: 47px;
+}
+.register-warkari-form .fields .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.register-warkari-form .fields .wrapper > div {
+    width: 100%;
+}
+.register-warkari-form .fields .wrapper .gap {
+    width: 35px;
+}
+.btn-btn-primary {
+    background-color: #ffc400; /* Green */
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    border-radius: 8px;
+    width: 300px;
+    height: 45px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+
+.btn-btn-primary:hover {
+    background-color: #dfdfdfa7;
+    color: white;
+  }
+
+.register-warkari-form .fields .wrapper1 {
+    display: flex;
+    justify-content: space-between;
+}
+.register-warkari-form .fields .wrapper1 > div {
+    width: 100%;
+    height: 150%;
+}
+.register-warkari-form .fields .wrapper1 .gap {
+    width: 35px;
+}
+
+.register-warkari-form input[type="button1"]:hover {
+    background-color: #27b93f;
+}
+
+
+.btn-dark-orange {
+  background-color: #FF8C00;
+  color: white;
+}
+
+.btn-back {
+            background-color: #ffcc00;
+            border-color: #ffcc00;
+            color: #333;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .btn-back:hover {
+            background-color: #333;
+            border-color: #333;
+            color: #ffcc00;
+        }
+
+    .field {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    input[type="radio"] {
+      
+      width: 20px;
+      height: 20px;
+      border: 1px solid gray;
+      background-color: transparent;
+      border-radius: 50%;
+      margin-right: 5px;
+      margin-top: 6px;
+      cursor: pointer;
+      padding: 5px 10px;
+      background-color: #686c7233;
+      transition: background-color 0.2s ease-in-out;
+    }
+    input[type="radio"] + span {
+    font-size: 13px;
+    padding: 5px 10px;
+    background-color: #686c7233;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  input[type="radio"]:checked + span {
+  color: yellow;
+  transition: color 0.2s ease-in-out;
+}
+    input[type="radio"]:checked {
+      background-color: yellow;
+    }
+
+    span {
+      font-size: 16px;
+    }
+select option {
+  font-size: 14px;
+}
